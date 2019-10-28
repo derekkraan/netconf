@@ -41,7 +41,7 @@ defmodule Netconf do
 
   def initialize_netconf(conn) do
     {:ok, channel} = SSHKit.SSH.Channel.open(conn)
-    :ok = SSHKit.SSH.Channel.subsystem(channel, "netconf")
+    :success = SSHKit.SSH.Channel.subsystem(channel, "netconf")
     :ok = SSHKit.SSH.Channel.send(channel, @hello)
 
     hello_message = get_message(channel, :eom)

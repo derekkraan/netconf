@@ -1,3 +1,3 @@
 %{
-  "sshkit": {:git, "https://github.com/derekkraan/sshkit.ex.git", "26079a161dab7ceb2430189d986cb6f575a66e53", [branch: "expose_subsystem"]},
+  "sshkit": {:hex, :sshkit, "0.3.0", "4c100e3c3ebd261b6b7de811ade713f425fb06eb730a96d583da18d29a6fca26", [:mix], [], "hexpm"},
 }
