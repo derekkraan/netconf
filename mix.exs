@@ -21,7 +21,7 @@ defmodule Netconf.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:sshkit, github: "derekkraan/sshkit.ex", branch: "expose_subsystem"}
+      {:sshkit, "~> 0.3"},
     ]
   end
 end
